@@ -1,4 +1,4 @@
-hermes-python>=0.1
+hermes-python>=0.2
 
 RPi.GPIO
 nanpy
