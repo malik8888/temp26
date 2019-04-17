@@ -58,7 +58,7 @@ class RelaySwitch(object):
         for i in range(0,200):
               a.analogWrite(bulb,100)
     
-        hermes.publish_end_session(intent_message.session_id, "")
+        hermes.publish_end_session(intent_message.session_id, "light is on ")
 
     def turnOffRelay(self, hermes, intent_message):
         print '[Received] intent: {}'.format(intent_message.intent.intent_name)
